@@ -14,6 +14,7 @@ function Routing(){
             <BrowserRouter>
                 <Routes>
                     <Route path='/' element={<Layout/>} >
+                    <Route index element={<Home />} /> {/* Default route */}
                     <Route path='/Home' element={<Home/>} />
                     <Route path='/Aboutme' element={<Aboutme/>} />
                     <Route path='/Skills' element={<Skills/>} />
@@ -27,3 +28,8 @@ function Routing(){
     );
 }
 export default Routing;
+
+
+
+
+

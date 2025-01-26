@@ -1,0 +1,73 @@
+.home-body{
+  background-color:#f4f4f4 ;
+}
+.home-container {
+    text-align: left; 
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto; 
+  }
+  
+   .home-container h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  .home-container h2 {
+    font-size: 2.0rem;
+    color: #333;
+    margin-bottom: 25px;
+    color: blue;
+  }
+  
+  .home-container p {
+    font-size: 1.1rem;
+    color: #434343;
+  }
+  
+  .home-container img {
+    width: 350px; /* Set a fixed width */
+    height: 350px; /* Set a fixed height to make it same size as the content */
+    object-fit: cover; /* Ensure image aspect ratio is maintained */
+    border-radius: 50%; /* Round the image */
+    border: 5px solid #ddd;
+    transition: transform 0.3s ease;
+  }
+
+  .home-container img:hover {
+    transform: scale(1.1);
+  }
+  
+  .home-container a {
+    margin: 0 5px;
+    font-size: 2rem;
+    transition: transform 0.3s ease;
+  }
+  
+   .home-container a:hover {
+    transform: scale(1.2);
+  } 
+  
+
+  .home-container .fa-instagram {
+    color: #E4405F;
+  }
+  
+  .home-container .fa-linkedin {
+    color: #0A66C2;
+  }
+  
+  .home-container .fa-github {
+    color: #333;
+  }
+  
+  .home-container .fa-briefcase {
+    color: #FF6600;
+  }
+  
+
+
+
+
+
+

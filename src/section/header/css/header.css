@@ -1,16 +1,7 @@
 .header-container {
-    display: flex;
-    justify-content: space-between;  
-    align-items: center;     
-    padding: 20px;           
     background-color: #f4f4f4; 
   }
   
-  .header-logo {
-    display: flex;  
-    justify-content: space-between;         
-    align-items: center; 
-  }
   
   .header-logo img {
     height: 55px;           
@@ -21,14 +12,14 @@
   .header-container h4 {
     font-size: 24px;     
     margin-right: 40px;
-    color: #333;             
+    color: #333;    
+    font-weight: bold;                
   }
   
-  /* Styling for the company name */
   .header-container h3 {
-    font-size: 28px;         /* Set the font size for the company name */
-    margin: 0;               /* Remove default margin */
-    color: #007bff;          /* Blue color for the company name */
-    font-weight: bold;       /* Make the company name bold */
+    font-size: 28px;         
+    margin: 0;               
+    color: #007bff;          
+    font-weight: bold;       
   }
   

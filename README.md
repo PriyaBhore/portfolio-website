@@ -1,8 +1,15 @@
-# React + Vite
+## Portfolio Project - Day 1
+  - React Setup
+  - Bootstrap
+  - FontAwesome
+  - React Router
+  - Axios
+  - npm run build
+  - Firebase Setup
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Day 2 and Day 3 Work:
+  - Build bootstrap responsive intro.jsx and added header.css file
+  - Modified routing(routing.jsx and layout.jsx) with bootstrap responsive and added routing.css file
+  - Designed bootstrap responsive home.jsx and added home.css file
+  -Installed and imported typewriter package.

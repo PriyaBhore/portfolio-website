@@ -1,4 +1,4 @@
-  .navbar {
+  /* .navbar {
     padding: 10px 20px;
     background-color: #3a3a3a;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -28,4 +28,69 @@
   }
 
 
+   */
+   
+/* .navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-align: center; 
+    transition: color 0.3s, background-color 0.3s;
+}
+ .navbar-nav .nav-link:hover {
+    color: blue;
+    background-color: white;
+    border-radius: 5px;
+} 
+
+
+.navbar {
+  background-color: #000000 !important; 
   
+}
+
+
+.navbar .nav-link,
+.navbar-brand {
+  color: #ffffff !important; 
+} */
+
+/* .navbar .nav-link:hover {
+  color: #ffcc00 !important; 
+}
+
+.navbar-toggler-icon {
+  color: #ffffff !important; 
+} */
+
+
+
+/* Navbar Background */
+.navbar .nav-link{
+  background-color: #000000 !important; /* Pure black background */
+  color: #ffffff !important;
+}
+
+
+
+/* Navbar Links Styling */
+.navbar-nav .nav-link {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-align: center; 
+  transition: color 0.3s, background-color 0.3s;
+}
+
+/* Links Hover Effect */
+.navbar-nav .nav-link:hover {
+  color: #ffcc00 !important; /* Optional: Add a hover color (e.g., gold) */
+  background-color: white !important;
+  border-radius: 5px;
+}
+
+/* Toggler Icon */
+.navbar-toggler {
+  color: #ffffff !important; /* White Hamburger Icon */
+}
+
