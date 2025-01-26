@@ -50,15 +50,12 @@
 // export default Home;
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faInstagram,
-  faLinkedin,
-  faGithub,
-} from "@fortawesome/free-brands-svg-icons";
+import {faInstagram,faLinkedin,faGithub,} from "@fortawesome/free-brands-svg-icons";
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import { Typewriter } from "react-simple-typewriter";
 import priyaImage from "../headerimages/priya.png";
 import "../css/home.css";
+import AboutMe from "./Aboutme";
 
 function Home() {
   return (
@@ -92,43 +89,29 @@ function Home() {
                 website at a reasonable rate.
               </p>
               <div className="mt-4 d-flex justify-content-center flex-wrap">
-                <a
-                  href="https://www.instagram.com/priya__23.04/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn-outline-dark me-2 mb-2"
-                >
+                <a href="https://www.instagram.com/priya__23.04/" target="_blank" rel="noopener noreferrer"className="btn btn-outline-dark me-2 mb-2">
                   <FontAwesomeIcon icon={faInstagram} />
                 </a>
-                <a
-                  href="https://www.linkedin.com/in/priya-baban-bhore-22a0aa293/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn-outline-dark me-2 mb-2"
-                >
+                <a href="https://www.linkedin.com/in/priya-baban-bhore-22a0aa293/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-dark me-2 mb-2">
                   <FontAwesomeIcon icon={faLinkedin} />
                 </a>
-                <a
-                  href="https://github.com/PriyaBhore"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn-outline-dark me-2 mb-2"
-                >
+                <a href="https://github.com/PriyaBhore" target="_blank" rel="noopener noreferrer" className="btn btn-outline-dark me-2 mb-2">
                   <FontAwesomeIcon icon={faGithub} />
                 </a>
-                <a
-                  href="https://www.naukri.com/mnjuser/profile"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn-outline-dark mb-2"
-                >
+                <a href="https://www.naukri.com/mnjuser/profile" target="_blank" rel="noopener noreferrer" className="btn btn-outline-dark mb-2">
                   <FontAwesomeIcon icon={faBriefcase} />
                 </a>
               </div>
             </div>
 
+           
+
             <div className="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center text-center mt-4 mt-md-0">
               <img src={priyaImage} alt="Priya" />
+            </div>
+
+            <div>
+              <AboutMe/>
             </div>
 
           </div>
