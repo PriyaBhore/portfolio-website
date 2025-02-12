@@ -138,7 +138,7 @@ import '../css/aboutme.css';
 function AboutMe() {
   return (
     <div className="container my-5">
-      <h1 className="text-center mb-4">About Me</h1>
+      <h1 className="text-center mb-4" id="about-me">About Me</h1>
       <p className="text-center lead">
         Hi, I'm <strong>Priya Bhore</strong>, a passionate Full Stack Website Developer with expertise in
         <strong> React.js</strong>, <strong>Node.js</strong>, and <strong>MySQL</strong>. I completed my graduation
@@ -147,7 +147,58 @@ function AboutMe() {
         With a commitment to continuous learning, I strive to deliver high-quality solutions for every project.
       </p>
 
-      <h2 className="text-center mt-5">Tech Skills</h2>
+      
+      <div className="text-center my-5">
+        <a href={Resumepdf} download="Priya_Bhore_Resume.pdf">
+          <button className="btn btn-primary m-2">Download Resume</button>
+        </a>
+        <a href="#contact">
+          <button className="btn btn-secondary m-2">Contact Me</button>
+        </a>
+      </div>
+
+      {/* Experience/Education Table */}
+      <h2 className="text-center">Experience & Education</h2>
+      <div className="table-responsive">
+        <table className="table table-bordered table-striped text-center mt-3">
+          <thead className="thead-dark">
+            <tr>
+              <th>Role/Qualification</th>
+              <th>Institute/Organisation</th>
+              <th>Timeline</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Freelance Website Developer</td>
+              <td>EroIT Solutions</td>
+              <td>Present</td>
+            </tr>
+            <tr>
+              <td>Website Developer</td>
+              <td>Mandal Softwares</td>
+              <td>January 2025</td>
+            </tr>
+            <tr>
+              <td>Website Developer Internship</td>
+              <td>Mandal Softwares</td>
+              <td>July 2024</td>
+            </tr>
+            <tr>
+              <td>Website Developer Trainee</td>
+              <td>M.S.World Institute</td>
+              <td>April 2024</td>
+            </tr>
+            <tr>
+              <td>BSc. Information Technology</td>
+              <td>Mumbai</td>
+              <td>June 2023</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 className="text-center mt-5" id="tech-skills">Tech Skills</h2>
       <div className="row text-center mt-4">
         {/* Core Languages */}
         <div className="col-md-6 col-lg-4 mb-4">
@@ -215,55 +266,6 @@ function AboutMe() {
         </div>
       </div>
 
-      <div className="text-center my-5">
-        <a href={Resumepdf} download="Priya_Bhore_Resume.pdf">
-          <button className="btn btn-primary m-2">Download Resume</button>
-        </a>
-        <a href="#contact">
-          <button className="btn btn-secondary m-2">Contact Me</button>
-        </a>
-      </div>
-
-      {/* Experience/Education Table */}
-      <h2 className="text-center">Experience & Education</h2>
-      <div className="table-responsive">
-        <table className="table table-bordered table-striped text-center mt-3">
-          <thead className="thead-dark">
-            <tr>
-              <th>Role/Qualification</th>
-              <th>Institute/Organisation</th>
-              <th>Timeline</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Freelance Website Developer</td>
-              <td>EroIT Solutions</td>
-              <td>Present</td>
-            </tr>
-            <tr>
-              <td>Website Developer</td>
-              <td>Mandal Softwares</td>
-              <td>January 2025</td>
-            </tr>
-            <tr>
-              <td>Website Developer Internship</td>
-              <td>Mandal Softwares</td>
-              <td>July 2024</td>
-            </tr>
-            <tr>
-              <td>Website Developer Trainee</td>
-              <td>M.S.World Institute</td>
-              <td>April 2024</td>
-            </tr>
-            <tr>
-              <td>BSc. Information Technology</td>
-              <td>Mumbai</td>
-              <td>June 2023</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
     </div>
   );
 }

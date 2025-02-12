@@ -1,8 +1,8 @@
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+
+
 function Skills(){
-    return(
-        <>
-        <p>This is Skill section</p>
-        </>
-    );
+   <></>
 }
 export default Skills;

@@ -56,6 +56,7 @@ import { Typewriter } from "react-simple-typewriter";
 import priyaImage from "../headerimages/priya.png";
 import "../css/home.css";
 import AboutMe from "./Aboutme";
+import Services from "./Services";
 
 function Home() {
   return (
@@ -113,6 +114,12 @@ function Home() {
             <div>
               <AboutMe/>
             </div>
+
+            <div>
+              <Services />
+            </div>
+
+            
 
           </div>
         </div>

@@ -17,3 +17,7 @@
 # Day 4 Work:
 - Built responsive Aboutme section and added css (aboutme.css).
 - Added About me section in home.jsx
+-Modified Layout.jsx such that on click of About button present under navbar it scrolls the screen to the part asigned with id=about-me
+
+# Day 5 Work:
+-Modified Layout.jsx such that on click of Skill button present under navbar it scrolls the screen to the part asigned with id=tech-skills
