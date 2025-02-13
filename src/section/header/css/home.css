@@ -1,5 +1,11 @@
+
+body{
+  padding-top: 60px;
+}
+
 .home-body{
   background-color:#f4f4f4 ;
+  
 }
 .home-container {
     text-align: left; 

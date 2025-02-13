@@ -55,12 +55,16 @@ import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import { Typewriter } from "react-simple-typewriter";
 import priyaImage from "../headerimages/priya.png";
 import "../css/home.css";
+import "../css/aboutme.css";
+import "../css/services.css"
 import AboutMe from "./Aboutme";
 import Services from "./Services";
 
 function Home() {
   return (
     <>
+    <div>
+      
       <div className="home-body">
         <div className="container-fluid home-container py-5">
           <div className="row align-items-center">
@@ -111,18 +115,17 @@ function Home() {
               <img src={priyaImage} alt="Priya" />
             </div>
 
+            </div>
+        </div>
+      </div>
             <div>
               <AboutMe/>
             </div>
 
-            <div>
-              <Services />
+            <div className="services-section">
+              <Services/>
             </div>
 
-            
-
-          </div>
-        </div>
       </div>
     </>
   );

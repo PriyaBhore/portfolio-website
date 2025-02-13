@@ -4,7 +4,7 @@ import Home from './Home.jsx';
 import Aboutme from './Aboutme.jsx';
 import Skills from './Skills.jsx';
 import Projects from './Projects.jsx';
-import Experience from './Services.jsx';
+import Services from './Services.jsx';
 import Contact from './Contact.jsx';
 
 
@@ -19,7 +19,7 @@ function Routing(){
                     <Route path='/Aboutme' element={<Aboutme/>} />
                     <Route path='/Skills' element={<Skills/>} />
                     <Route path='/Projects' element={<Projects/>} />
-                    <Route path='/Services' element={<Experience/>} />
+                    <Route path='/Services' element={<Services/>} />
                     <Route path='/Contact' element={<Contact/>} />
                     </Route>
                 </Routes>

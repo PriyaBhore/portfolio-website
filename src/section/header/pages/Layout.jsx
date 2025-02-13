@@ -33,7 +33,7 @@ function Layout() {
                 </Link>
               </li> */}
 
-<li className="nav-item">
+              <li className="nav-item">
                 <button
                   className="nav-link btn btn-link text-light"
                   onClick={() => {
@@ -59,16 +59,30 @@ function Layout() {
                 </button>
               </li>
 
+              
+              <li className="nav-item">
+                <button
+                  className="nav-link btn btn-link text-light"
+                  onClick={() => {
+                    document
+                      .getElementById("servicesid")
+                      .scrollIntoView({ behavior: "smooth" });
+                  }}
+                >
+                  Services
+                </button>
+              </li>
+
               <li className="nav-item">
                 <Link to="/Projects" className="nav-link">
                   Projects
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link to="/Experience" className="nav-link">
+              {/* <li className="nav-item">
+                <Link to="/Services" className="nav-link">
                   Services
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link to="/Contact" className="nav-link">
                   Contact
