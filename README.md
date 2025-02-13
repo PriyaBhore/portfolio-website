@@ -21,3 +21,7 @@
 
 # Day 5 Work:
 -Modified Layout.jsx such that on click of Skill button present under navbar it scrolls the screen to the part asigned with id=tech-skills
+
+# Day 6 Work:
+-Created Services.jsx and Services.css and added it to Home section
+-Modified Layout.jsx such that on click of a Service button the screen navigates to the Service section
